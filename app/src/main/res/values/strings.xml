@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Html</string>
+    <string name="chapter1">1.Введение в HTML</string>
+    <string name="chapter2">2.Работа с текстом и ссылками</string>
+    <string name="chapter3">3.Изображения и мультимедиа</string>
+    <string name="chapter4">4.Таблицы и списки</string>
+    <string name="chapter5">5.Формы и взаимодействие с пользователем</string>
+</resources>
