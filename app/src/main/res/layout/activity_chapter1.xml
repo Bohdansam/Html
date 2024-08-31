@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,4 +7,196 @@
     android:layout_height="match_parent"
     tools:context=".Chapter1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="@string/content"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="- Что такое HTML и для чего он нужен\n
+- Структура HTML-документа: &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt; \n
+- Основные теги: &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, &lt;ul&gt;, &lt;li&gt;\n
+- Структура HTML кода"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/content" />
+
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="Что такое HTML и для чего он нужен: "
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/first" />
+
+            <TextView
+                android:id="@+id/third"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="- Html - один из глвавных инструментов для  верски сайтов"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/second" />
+
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="- Верстка сайтов - написание визуальной части сайта, то есть добавление текста, иконок, кнопок "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/third" />
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="Структура HTML-документа: &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body:&gt;: "
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/four" />
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="-`&lt;!DOCTYPE html&gt;` — эта строка, которая сообщает браузеру, что документ написан на языке HTML5, самой новой и современной версии HTML. Этот тег обязателен в начале каждого HTML-документа, чтобы браузер правильно понимал и отображал содержимое страницы. Хотя этот тег не является HTML-элементом, он играет важную роль в определении режима работы браузера\n\n
+- html - корневой тег внутри него находяться все остальные теги\n\n
+- head - тег для хранения мета информации и ссылок на стили или скрипты\n\n
+- body - В этом теге находится весь видимый контент веб-страницы: текст, изображения, ссылки и другие элементы"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/five" />
+
+            <TextView
+                android:id="@+id/seven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="- Основные теги: &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, &lt;ul&gt;, &lt;li&gt;"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/six" />
+
+            <TextView
+                android:id="@+id/eight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="-h1 - Главный заголовок текста\n
+-p - Параграф, нужен для добавления большого блока текста\n
+-a - Внутри тега можно добавлять элемент на веб-странице, который позволяет пользователю перейти на другую веб-страницу(работает как для внутрених ссылок так и для внешних)\n
+-img - Чтобы вставлять изображения на веб-сайт\n
+-title - заголовк(название) веб сайта"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seven" />
+
+            <TextView
+                android:id="@+id/night"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:text="-Cруктура html кода:"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eight" />
+
+
+            <ImageView
+                android:id="@+id/ten"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/html_structor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/night" />
+
+            <TextView
+                android:id="@+id/eleven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16dp"
+                android:text="Вся HTML-страница начинается с корневого элемента &lt;html&gt;. Он является самым верхним уровнем в иерархии и содержит все остальные элементы страницы. Всё, что находится на веб-странице, является потомком &lt;html&gt;.\n
+Элемент, который содержит внутри себя другой элемент, называется родительским элементом, а тот, который находится внутри, — дочерним элементом.\n
+Открытый тег — это начальный тег, который обозначает начало элемента в HTML. Например, &lt;p&gt;.\n
+Закрытый тег — это конечный тег, который завершает элемент. Он выглядит как открытый, но с добавленным слэшем /. Например, &lt;/p&gt;.\n
+Вместе они создают элемент: &lt;p&gt;Текст абзаца &lt;p&gt;.\n
+&lt;html&gt; — корневой элемент, который содержит весь документ.\n
+&lt;head&gt; и &lt;body&gt; — дочерние элементы &lt;html&gt;"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ten" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

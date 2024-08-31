@@ -14,35 +14,24 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val chapter1Button = findViewById<Button>(R.id.chapter1Btn)
-        val chapter2Button = findViewById<Button>(R.id.chapter2Btn)
-        val chapter3Button = findViewById<Button>(R.id.chapter3Btn)
-        val chapter4Button = findViewById<Button>(R.id.chapter4Btn)
-        val chapter5Button = findViewById<Button>(R.id.chapter5Btn)
+        val button_chapter1 = findViewById<Button>(R.id.chapterBtn1)
+        val button_chapter2 = findViewById<Button>(R.id.chapterBtn2)
+        val button_chapter3 = findViewById<Button>(R.id.chapterBtn3)
 
-        chapter1Button.setOnClickListener{
-            val intent = Intent(this, Chapter1::class.java)
+        button_chapter1.setOnClickListener{
+            val intent =Intent(this, Chapter1::class.java)
             startActivity(intent)
         }
 
-        chapter2Button.setOnClickListener{
-            val intent = Intent(this, Chapter2::class.java)
+        button_chapter2.setOnClickListener{
+            val intent =Intent(this, Chapter2::class.java)
             startActivity(intent)
         }
 
-        chapter3Button.setOnClickListener{
-            val intent = Intent(this, Chapter3::class.java)
+        button_chapter3.setOnClickListener{
+            val intent =Intent(this, Chapter3::class.java)
             startActivity(intent)
         }
 
-        chapter4Button.setOnClickListener{
-            val intent = Intent(this, Chapter4::class.java)
-            startActivity(intent)
-        }
-
-        chapter5Button.setOnClickListener{
-            val intent = Intent(this, Chapter5::class.java)
-            startActivity(intent)
-        }
     }
 }

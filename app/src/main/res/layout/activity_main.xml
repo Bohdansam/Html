@@ -5,164 +5,119 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
     tools:context=".MainActivity">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
             <ImageView
-                android:id="@+id/rectangle"
-                android:layout_width="match_parent"
+                android:id="@+id/chapter1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/kozr"
-                android:layout_marginTop="11dp"
-                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/circul_button1"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="60sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
-                android:textSize="32dp"
-                android:fontFamily="@font/mplcbold"
                 android:textColor="@color/white"
-                android:layout_marginTop="-1dp"
-                app:layout_constraintTop_toTopOf="@+id/rectangle"
-                app:layout_constraintRight_toRightOf="@+id/rectangle"
-                app:layout_constraintLeft_toLeftOf="@+id/rectangle"/>
+                android:textSize="32sp"
+                android:fontFamily="@font/racing_sans_one"
+                app:layout_constraintTop_toTopOf="@id/chapter1"
+                app:layout_constraintLeft_toLeftOf="@id/chapter1"
+                app:layout_constraintRight_toRightOf="@id/chapter1"
+                android:layout_margin="30sp"/>
 
-            <ImageView
-                android:id="@+id/codeSym"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:layout_constraintTop_toBottomOf="@+id/rectangle"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/comp" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chapter1Btn"
-                android:layout_width="310dp"
-                android:layout_height="60dp"
-                app:layout_constraintTop_toTopOf="@id/codeSym"
-                app:layout_constraintBottom_toBottomOf="@id/codeSym"
-                app:layout_constraintStart_toEndOf="@id/codeSym"
-                app:layout_constraintEnd_toEndOf="parent"
+            <Button
+                android:id="@+id/chapterBtn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:text="@string/chapter1"
-                android:background="@color/efef"
-                android:textSize="20dp"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="-10dp"/>
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:paddingLeft="0dp"
+                android:layout_marginStart="8sp"
+                app:layout_constraintLeft_toRightOf="@id/chapter1"
+                app:layout_constraintBottom_toBottomOf="@id/chapter1" />
+
 
             <ImageView
-                android:id="@+id/textSmv"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:layout_constraintTop_toBottomOf="@+id/codeSym"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/write"/>
+                android:id="@+id/chapter2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circule_button2"
+                app:layout_constraintTop_toBottomOf="@+id/chapter1"
+                android:layout_margin="20sp"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chapter2Btn"
-                android:layout_width="310dp"
-                android:layout_height="65dp"
-                app:layout_constraintTop_toTopOf="@id/textSmv"
-                app:layout_constraintBottom_toBottomOf="@id/textSmv"
-                app:layout_constraintStart_toEndOf="@id/textSmv"
-                app:layout_constraintEnd_toEndOf="parent"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;/&gt;"
+                android:textColor="@color/white"
+                android:textSize="70sp"
+                android:fontFamily="@font/racing_sans_one"
+                app:layout_constraintTop_toTopOf="@id/chapter2"
+                app:layout_constraintLeft_toLeftOf="@id/chapter2"
+                app:layout_constraintRight_toRightOf="@id/chapter2"
+                android:layout_margin="5sp"/>
+
+            <Button
+                android:id="@+id/chapterBtn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:text="@string/chapter2"
-                android:background="@color/efef"
-                android:textSize="20dp"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="-10dp"/>
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:paddingLeft="1dp"
+                android:layout_marginStart="8sp"
+                app:layout_constraintLeft_toRightOf="@id/chapter2"
+                app:layout_constraintBottom_toBottomOf="@id/chapter2" />
 
             <ImageView
-                android:id="@+id/imagetSmv"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:layout_constraintTop_toBottomOf="@+id/textSmv"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/image"/>
+                android:id="@+id/chapter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circule_button3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="300sp"/>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chapter3Btn"
-                android:layout_width="310dp"
-                android:layout_height="65dp"
-                app:layout_constraintTop_toTopOf="@id/imagetSmv"
-                app:layout_constraintBottom_toBottomOf="@id/imagetSmv"
-                app:layout_constraintStart_toEndOf="@id/imagetSmv"
-                app:layout_constraintEnd_toEndOf="parent"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/code"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:fontFamily="@font/racing_sans_one"
+                app:layout_constraintTop_toTopOf="@id/chapter3"
+                app:layout_constraintLeft_toLeftOf="@id/chapter3"
+                app:layout_constraintRight_toRightOf="@id/chapter3"
+                android:layout_margin="15sp"/>
+
+            <Button
+                android:id="@+id/chapterBtn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:text="@string/chapter3"
-                android:background="@color/efef"
-                android:textSize="20dp"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="-10dp"/>
-
-            <ImageView
-                android:id="@+id/tableSmv"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:layout_constraintTop_toBottomOf="@+id/imagetSmv"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/dock"/>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chapter4Btn"
-                android:layout_width="310dp"
-                android:layout_height="65dp"
-                app:layout_constraintTop_toTopOf="@id/tableSmv"
-                app:layout_constraintBottom_toBottomOf="@id/tableSmv"
-                app:layout_constraintStart_toEndOf="@id/tableSmv"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:text="@string/chapter4"
-                android:background="@color/efef"
-                android:textSize="20dp"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="-10dp"/>
-
-
-            <ImageView
-                android:id="@+id/interactionSmv"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:layout_constraintTop_toBottomOf="@+id/tableSmv"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/change"/>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chapter5Btn"
-                android:layout_width="310dp"
-                android:layout_height="65dp"
-                app:layout_constraintTop_toTopOf="@id/interactionSmv"
-                app:layout_constraintBottom_toBottomOf="@id/interactionSmv"
-                app:layout_constraintStart_toEndOf="@id/interactionSmv"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:text="@string/chapter5"
-                android:background="@color/efef"
-                android:textSize="20dp"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="-10dp"/>
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:paddingLeft="1dp"
+                android:layout_marginStart="8sp"
+                app:layout_constraintLeft_toRightOf="@id/chapter3"
+                app:layout_constraintBottom_toBottomOf="@id/chapter3" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
