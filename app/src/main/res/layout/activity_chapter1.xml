@@ -37,11 +37,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/mplcbold"
-                android:text="- Что такое HTML и для чего он нужен\n
-- Структура HTML-документа: &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt; \n
-- Основные теги: &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, &lt;ul&gt;, &lt;li&gt;\n
-- Структура HTML кода"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/html_text"
+            app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/content" />
 
@@ -67,7 +64,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/mplcbold"
-                android:text="- Html - один из глвавных инструментов для  верски сайтов"
+                android:text="• Html - один из глвавных инструментов для  верски сайтов"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/second" />
@@ -81,7 +78,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/mplcbold"
-                android:text="- Верстка сайтов - написание визуальной части сайта, то есть добавление текста, иконок, кнопок "
+                android:text="• Верстка сайтов - написание визуальной части сайта, то есть добавление текста, иконок, кнопок "
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/third" />
@@ -108,10 +105,10 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/mplcbold"
-                android:text="-`&lt;!DOCTYPE html&gt;` — эта строка, которая сообщает браузеру, что документ написан на языке HTML5, самой новой и современной версии HTML. Этот тег обязателен в начале каждого HTML-документа, чтобы браузер правильно понимал и отображал содержимое страницы. Хотя этот тег не является HTML-элементом, он играет важную роль в определении режима работы браузера\n\n
-- html - корневой тег внутри него находяться все остальные теги\n\n
-- head - тег для хранения мета информации и ссылок на стили или скрипты\n\n
-- body - В этом теге находится весь видимый контент веб-страницы: текст, изображения, ссылки и другие элементы"
+                android:text="• &lt;!DOCTYPE html&gt; — эта строка, которая сообщает браузеру, что документ написан на языке HTML5, самой новой и современной версии HTML. Этот тег обязателен в начале каждого HTML-документа, чтобы браузер правильно понимал и отображал содержимое страницы. Хотя этот тег не является HTML-элементом, он играет важную роль в определении режима работы браузера\n\n
+• html - корневой тег внутри него находяться все остальные теги\n\n
+• head - тег для хранения мета информации и ссылок на стили или скрипты\n\n
+• body - В этом теге находится весь видимый контент веб-страницы: текст, изображения, ссылки и другие элементы"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/five" />
@@ -183,12 +180,12 @@
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/mplcbold"
                 android:textSize="16dp"
-                android:text="Вся HTML-страница начинается с корневого элемента &lt;html&gt;. Он является самым верхним уровнем в иерархии и содержит все остальные элементы страницы. Всё, что находится на веб-странице, является потомком &lt;html&gt;.\n
-Элемент, который содержит внутри себя другой элемент, называется родительским элементом, а тот, который находится внутри, — дочерним элементом.\n
-Открытый тег — это начальный тег, который обозначает начало элемента в HTML. Например, &lt;p&gt;.\n
-Закрытый тег — это конечный тег, который завершает элемент. Он выглядит как открытый, но с добавленным слэшем /. Например, &lt;/p&gt;.\n
-Вместе они создают элемент: &lt;p&gt;Текст абзаца &lt;p&gt;.\n
-&lt;html&gt; — корневой элемент, который содержит весь документ.\n
+                android:text="Вся HTML-страница начинается с корневого элемента &lt;html&gt;. Он является самым верхним уровнем в иерархии и содержит все остальные элементы страницы. Всё, что находится на веб-странице, является потомком &lt;html&gt;.\n\n
+Элемент, который содержит внутри себя другой элемент, называется родительским элементом, а тот, который находится внутри, — дочерним элементом.\n\n
+Открытый тег — это начальный тег, который обозначает начало элемента в HTML. Например, &lt;p&gt;.\n\n
+Закрытый тег — это конечный тег, который завершает элемент. Он выглядит как открытый, но с добавленным слэшем /. Например, &lt;/p&gt;.\n\n
+Вместе они создают элемент: &lt;p&gt;Текст абзаца &lt;p&gt;.\n\n
+&lt;html&gt; — корневой элемент, который содержит весь документ.\n\n
 &lt;head&gt; и &lt;body&gt; — дочерние элементы &lt;html&gt;"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

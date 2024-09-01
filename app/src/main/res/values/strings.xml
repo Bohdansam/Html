@@ -7,4 +7,12 @@
     <string name="chapter5">5.Формы и взаимодействие с пользователем</string>
     <string name="code">code</string>
     <string name="content">Содержание:</string>
+
+    <string name="html_text">
+        - Что такое HTML и для чего он нужен\n
+        - Структура HTML-документа: <font color="#00B0FF">&lt;!DOCTYPE html&gt;</font>, <font color="#00B0FF">&lt;html&gt;</font>, <font color="#00B0FF">&lt;head&gt;</font>, <font color="#00B0FF">&lt;body&gt;</font> \n
+        - Основные теги: <font color="#00B0FF">&lt;h1&gt;</font>, <font color="#00B0FF">&lt;p&gt;</font>, <font color="#00B0FF">&lt;a&gt;</font>, <font color="#00B0FF">&lt;img&gt;</font>, <font color="#00B0FF">&lt;ul&gt;</font>, <font color="#00B0FF">&lt;li&gt;</font>\n
+        - Структура HTML кода
+    </string>
+
 </resources>
