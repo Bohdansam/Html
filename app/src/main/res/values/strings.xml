@@ -8,11 +8,56 @@
     <string name="code">code</string>
     <string name="content">Содержание:</string>
 
-    <string name="html_text">
+    <string name="html_index">
         - Что такое HTML и для чего он нужен\n
-        - Структура HTML-документа: <font color="#00B0FF">&lt;!DOCTYPE html&gt;</font>, <font color="#00B0FF">&lt;html&gt;</font>, <font color="#00B0FF">&lt;head&gt;</font>, <font color="#00B0FF">&lt;body&gt;</font> \n
-        - Основные теги: <font color="#00B0FF">&lt;h1&gt;</font>, <font color="#00B0FF">&lt;p&gt;</font>, <font color="#00B0FF">&lt;a&gt;</font>, <font color="#00B0FF">&lt;img&gt;</font>, <font color="#00B0FF">&lt;ul&gt;</font>, <font color="#00B0FF">&lt;li&gt;</font>\n
+        - Структура HTML-документа: <font color="#6A5ACD">&lt;!DOCTYPE html&gt;</font>, <font color="#4682B4">&lt;html&gt;</font>, <font color="#556B2F">&lt;head&gt;</font>, <font color="#6A5ACD">&lt;body&gt;</font> \n
+        - Основные теги: <font color="#4682B4">&lt;h1&gt;</font>, <font color="#556B2F">&lt;p&gt;</font>, <font color="#6A5ACD">&lt;a&gt;</font>, <font color="#4682B4">&lt;img&gt;</font>, <font color="#556B2F">&lt;ul&gt;</font>, <font color="#6A5ACD">&lt;li&gt;</font>\n
         - Структура HTML кода
     </string>
 
+    <string name="html_is">
+        • <font color="#6A5ACD">Html</font> - один из главных инструментов для верстки сайтов
+    </string>
+
+    <string name="html_layout">
+        • <font color="#4682B4">Верстка сайтов</font> - написание визуальной части сайта, то есть добавление текста, иконок, кнопок
+    </string>
+
+    <string name="html_str">
+        • <font color="#6A5ACD">&lt;!DOCTYPE html&gt;</font> — эта строка, которая сообщает браузеру, что документ написан на языке <font color="#4682B4">HTML5</font>, самой новой и современной версии <font color="#6A5ACD">HTML</font>. Этот тег обязателен в начале каждого HTML-документа, чтобы браузер правильно понимал и отображал содержимое страницы. Хотя этот тег не является HTML-элементом, он играет важную роль в определении режима работы браузера.\n\n
+        • <font color="#556B2F">&lt;html&gt;</font> - корневой тег, внутри которого находятся все остальные теги.\n\n
+        • <font color="#4682B4">&lt;head&gt;</font> - тег для хранения мета информации и ссылок на стили или скрипты.\n\n
+        • <font color="#6A5ACD">&lt;body&gt;</font> - В этом теге находится весь видимый контент веб-страницы: текст, изображения, ссылки и другие элементы.
+    </string>
+
+    <string name="html_teg">
+        Основные теги: <font color="#556B2F">&lt;h1&gt;</font>, <font color="#4682B4">&lt;p&gt;</font>, <font color="#6A5ACD">&lt;a&gt;</font>, <font color="#556B2F">&lt;img&gt;</font>, <font color="#4682B4">&lt;ul&gt;</font>, <font color="#6A5ACD">&lt;li&gt;</font>
+    </string>
+
+    <string name="html_tegs">
+        -<font color="#556B2F">h1</font> - Главный заголовок текста\n
+        -<font color="#4682B4">p</font> - Параграф, нужен для добавления большого блока текста\n
+        -<font color="#6A5ACD">a</font> - Внутри тега можно добавлять элемент на веб-странице, который позволяет пользователю перейти на другую веб-страницу (работает как для внутренних ссылок, так и для внешних)\n
+        -<font color="#556B2F">img</font> - Чтобы вставлять изображения на веб-сайт\n
+        -<font color="#4682B4">title</font> - заголовок (название) веб-сайта
+    </string>
+
+    <string name="html_str2">
+        - Структура <font color="#6A5ACD">html</font> кода:
+    </string>
+
+    <string name="html_final">
+        • <font color="#6A5ACD">&lt;!DOCTYPE html&gt;</font> — эта строка сообщает браузеру, что документ написан на языке <font color="#4682B4">HTML5</font>, самой новой и современной версии <font color="#6A5ACD">HTML</font>. Этот тег обязателен в начале каждого HTML-документа, чтобы браузер правильно понимал и отображал содержимое страницы. Хотя этот тег не является HTML-элементом, он играет важную роль в определении режима работы браузера.\n\n
+        • <font color="#556B2F">&lt;html&gt;</font> — корневой тег, внутри которого находятся все остальные теги.\n\n
+        • <font color="#4682B4">&lt;head&gt;</font> — тег для хранения мета-информации и ссылок на стили или скрипты.\n\n
+        • <font color="#6A5ACD">&lt;body&gt;</font> — В этом теге находится весь видимый контент веб-страницы: текст, изображения, ссылки и другие элементы.\n\n
+        • <font color="#556B2F">&lt;title&gt;</font> — тег, в котором указывается заголовок страницы, отображаемый на вкладке браузера или в результатах поиска.\n\n
+        • <font color="#4682B4">&lt;meta&gt;</font> — тег для хранения мета-информации, такой как описание страницы, ключевые слова и другие данные, которые не отображаются пользователю напрямую.\n\n
+        • <font color="#6A5ACD">&lt;link&gt;</font> — тег для подключения внешних ресурсов, например, CSS-файлов, используемых для стилизации страницы.\n\n
+        • <font color="#556B2F">&lt;script&gt;</font> — тег, используемый для подключения и выполнения JavaScript-кода на странице.\n\n
+        • <font color="#4682B4">&lt;h1&gt; - &lt;h6&gt;</font> — теги заголовков, от самого большого и важного (<font color="#6A5ACD">&lt;h1&gt;</font>) до менее значимых (<font color="#556B2F">&lt;h6&gt;</font>).\n\n
+        • <font color="#4682B4">&lt;p&gt;</font> — тег абзаца, используемый для форматирования текста на странице.\n\n
+        • <font color="#6A5ACD">&lt;a&gt;</font> — тег ссылки, который позволяет пользователю переходить на другие страницы или ресурсы.\n\n
+        • <font color="#556B2F">&lt;img&gt;</font> — тег для отображения изображений на веб-странице.
+    </string>
 </resources>

@@ -20,6 +20,5 @@ class Chapter1 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_chapter1)
 
-
     }
 }
