@@ -607,6 +607,151 @@
                 app:layout_constraintTop_toBottomOf="@+id/fourty_three"/>
 
 
+            <TextView
+                android:id="@+id/contentLink"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:text="2. Работа с ссылками:"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_four"/>
+
+            <TextView
+                android:id="@+id/fourty_five"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:text="a - Тег ссылки"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/contentLink"/>
+
+            <ImageView
+                android:id="@+id/fourty_six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/a"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_five"/>
+
+            <TextView
+                android:id="@+id/fourty_seven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:text="• area - Тег для создания областей ссылок в изображениях-картах."
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_six"/>
+
+            <TextView
+                android:id="@+id/fourty_eight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:text="• link - Тег для связи с внешними ресурсами. таких как CSS-стили, иконки сайта, фиды RSS и другие ресурсы."
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_seven"/>
+
+            <TextView
+                android:id="@+id/fourty_nine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:text="• nav - Семантический тег, используемый для обозначения навигационного блока, содержащего ссылки"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_eight"/>
+
+            <TextView
+                android:id="@+id/fifty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:text="• Атрибуты для работы с ссылками:"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fourty_nine"/>
+
+            <TextView
+                android:id="@+id/fifty_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:text="• href - Атрибут гиперссылки.\n
+target - Атрибут для указания, где открыть ссылку:\n
+    - blank — Открывает ссылку в новой вкладке или окне.\n
+    - self — Открывает ссылку в той же вкладке (по умолчанию).\n
+    - parent — Открывает ссылку во фрейме-родителе, если таковой есть.\n
+    - top — Открывает ссылку в полном окне браузера, выходя из любых фреймов.\n
+ rel — Атрибут для определения отношения текущего документа к связанному документу.\n
+title - Атрибут для задания всплывающей подсказки."
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fifty"/>
+
+            <ImageView
+                android:id="@+id/fifty_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fifty_one"/>
+
+            <TextView
+                android:id="@+id/fifty_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:text="• Все о чем тут рассказано хватит для создания сайта со своей визиткой где вы можете указать свое имя, фамилию, добавить ссылки на соц.сети написать ваши хобби, професию, характер.\n
+Все о чём тут рассказываеться не будет иметь домашнего задания, я даю вам инструмент, с ним вы сможете сделать все что хотите"
+                android:fontFamily="@font/mplcbold"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fifty_two"/>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
