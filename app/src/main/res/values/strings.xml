@@ -60,4 +60,142 @@
         • <font color="#6A5ACD">&lt;a&gt;</font> — тег ссылки, который позволяет пользователю переходить на другие страницы или ресурсы.\n\n
         • <font color="#556B2F">&lt;img&gt;</font> — тег для отображения изображений на веб-странице.
     </string>
+
+    <string name="html_index2">
+        <font color="#556B2F">1.</font> <font color="#6A5ACD">Введение в работу с текстом</font>\n
+        <font color="#4682B4">2.</font> <font color="#6A5ACD">Работа с ссылками</font>
+    </string>
+
+    <string name="html_atrributs">
+        <font color="#4682B4">Атрибуты HTML</font> — это специальные слова, внутри начального тега для управления представления элемента или форматирования текста
+    </string>
+
+    <string name="html_text">
+        <font color="#6A5ACD">1.</font> <font color="#556B2F">Введение в работу с текстом</font>
+    </string>
+
+    <string name="html_p">
+        • <font color="#4682B4">p</font> - Создает параграф текста
+    </string>
+
+    <string name="html_br">
+        • <font color="#6A5ACD">br</font> - Тег переноса строки
+    </string>
+
+    <string name="html_hr">
+        • <font color="#556B2F">hr</font> - Создает горизонтальную линию
+    </string>
+
+    <string name="html_h">
+        <font color="#6A5ACD">h1-h6</font> - Заголовки, теги от <font color="#4682B4">h1</font> до <font color="#556B2F">h6</font> используются для создания заголовков разного уровня.\n
+        • <font color="#6A5ACD">h1</font> — самый важный заголовок, <font color="#556B2F">h6</font> — наименее важный.
+    </string>
+
+    <string name="html_strong">
+        • <font color="#4682B4">strong</font> — Жирный шрифт с акцентом. Используется для выделения важного текста.
+    </string>
+
+    <string name="html_b">
+        • <font color="#6A5ACD">b</font> - Жирный шрифт без акцента. Используется для выделения текста жирным, без добавления акцента.
+    </string>
+
+    <string name="html_em">
+        • <font color="#556B2F">em</font> - Курсив с акцентом. Используется для выделения текста курсивом и добавления акцента.
+    </string>
+
+    <string name="html_i">
+        • <font color="#4682B4">i</font> - Курсив без акцента. Используется для выделения текста курсивом без акцента.
+    </string>
+
+    <string name="html_u">
+        • <font color="#6A5ACD">u</font> - Подчеркнутый текст. Используется для подчеркивания текста.
+    </string>
+
+    <string name="html_mark">
+        • <font color="#556B2F">mark</font> - Подсвеченный текст. Выделяет текст желтым цветом, как маркером.
+    </string>
+
+    <string name="html_small">
+        • <font color="#4682B4">small</font> - Уменьшенный текст. Отображает текст меньшим шрифтом.
+    </string>
+
+    <string name="html_del">
+        • <font color="#6A5ACD">del</font> - Зачеркнутый текст. Используется для отображения текста с линией через него.
+    </string>
+
+    <string name="html_ins">
+        • <font color="#556B2F">ins</font> - Подчеркнутый вставленный текст. Используется для обозначения текста, который был добавлен.
+    </string>
+
+    <string name="html_sub">
+        • <font color="#4682B4">sub</font> - Нижний индекс. Отображает текст в виде нижнего индекса.
+    </string>
+
+    <string name="html_sup">
+        • <font color="#6A5ACD">sup</font> - Верхний индекс. Отображает текст в виде верхнего индекса.
+    </string>
+
+    <string name="html_indexs">
+        • <font color="#556B2F">Индекс*</font> — это способ размещения текста выше или ниже основной строки, который часто используется в научных и технических контекстах для обозначения математических выражений, химических формул, примечаний и других специальных символов.
+    </string>
+
+    <string name="html_blockqoute">
+        • <font color="#4682B4">blockquote</font> - Цитата. Используется для выделения длинных цитат.
+    </string>
+
+    <string name="html_code">
+        • <font color="#6A5ACD">code</font> - Выделение кода. Используется для отображения текста в виде кода.
+    </string>
+
+    <string name="html_pre">
+        • <font color="#556B2F">pre</font> - Предварительно форматированный текст. Сохраняет все пробелы и переносы строк, как в исходном коде.
+    </string>
+
+    <string name="html_cite">
+        • <font color="#4682B4">cite</font> - Ссылка на источник. Используется для обозначения названий книг, статей и других источников.
+    </string>
+
+    <string name="html_address">
+        • <font color="#6A5ACD">address</font> - Адрес. Используется для выделения контактной информации.
+    </string>
+
+    <string name="link">
+        <font color="#556B2F">2.</font> <font color="#6A5ACD">Работа с ссылками:</font>
+    </string>
+
+    <string name="html_a">
+        <font color="#4682B4">a</font> - Тег ссылки
+    </string>
+
+    <string name="html_area">
+        • <font color="#6A5ACD">area</font> - Тег для создания областей ссылок в изображениях-картах.
+    </string>
+
+    <string name="html_link">
+        • <font color="#556B2F">link</font> - Тег для связи с внешними ресурсами, таких как CSS-стили, иконки сайта, фиды RSS и другие ресурсы.
+    </string>
+
+    <string name="html_nav">
+        • <font color="#4682B4">nav</font> - Семантический тег, используемый для обозначения навигационного блока, содержащего ссылки.
+    </string>
+
+    <string name="html_atributes">
+        • <font color="#6A5ACD">Атрибуты для работы с ссылками:</font>
+    </string>
+
+    <string name="html_links">
+        • <font color="#556B2F">href</font> - Атрибут гиперссылки.\n
+        <font color="#4682B4">target</font> - Атрибут для указания, где открыть ссылку:\n
+        - <font color="#6A5ACD">blank</font> — Открывает ссылку в новой вкладке или окне.\n
+        - <font color="#556B2F">self</font> — Открывает ссылку в той же вкладке (по умолчанию).\n
+        - <font color="#4682B4">parent</font> — Открывает ссылку во фрейме-родителе, если таковой есть.\n
+        - <font color="#6A5ACD">top</font> — Открывает ссылку в полном окне браузера, выходя из любых фреймов.\n
+        <font color="#556B2F">rel</font> — Атрибут для определения отношения текущего документа к связанному документу.\n
+        <font color="#4682B4">title</font> - Атрибут для задания всплывающей подсказки.
+    </string>
+
+    <string name="exmplain">
+        • <font color="#6A5ACD">Все о чем тут рассказано</font> хватит для создания сайта со своей визиткой где вы можете указать свое имя, фамилию, добавить ссылки на соц.сети написать ваши хобби, професию, характер.\n
+        <font color="#556B2F">Все о чём тут рассказывается</font> не будет иметь домашнего задания, я даю вам инструмент, с ним вы сможете сделать все что хотите.
+    </string>
 </resources>
