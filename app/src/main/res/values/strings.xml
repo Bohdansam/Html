@@ -229,7 +229,7 @@
 </string>
 
     <string name="width_exemple">
-    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font> <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font> <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>&gt;
+    &lt; <font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font> <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font> <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>&gt;
 </string>
 
     <string name="html_title">
@@ -242,22 +242,30 @@
 
     <string name="html_gif_a">
     Тег <font color="#4682B4">img</font> также поддерживает анимированные изображения в виде <font color="#4682B4">gif</font>.\n
-    Изображение можно использовать как ссылку, для этого тег <font color="#4682B4">img</font> нужно добавить в тег &lt;<font color="#4682B4">a</font>&gt;.
+    Изображение можно использовать как ссылку, для этого тег <font color="#4682B4">img</font> нужно добавить в тег &lt; <font color="#4682B4">a</font>&gt;.
 </string>
+
+    <string name="html_loading">
+    <font color="#4682B4">loading</font> - управляет поведением загрузки изображения. Значения могут быть:\n
+    <font color="#4682B4">lazy</font> — отложенная загрузка (изображение загружается только когда попадает в видимую область);\n
+    <font color="#4682B4">eager</font> — немедленная загрузка.\n
+    <font color="#4682B4">srcset</font> и <font color="#4682B4">sizes</font> - позволяют задавать разные версии изображения для различных экранов и разрешений. Это полезно для адаптивного дизайна.
+</string>
+
+    <string name="loading_exemple">
+        &lt; <font color="#4682B4">img</font> <font color="#94D6BD">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#94D6BD">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font>
+<font color="#94D6BD">srcset</font>=<font color="#C3693C">&quot;image-small.jpg 500w, image-large.jpg 1000w&quot;</font>
+<font color="#94D6BD">sizes</font>=<font color="#C3693C">&quot;(max-width: 600px) 500px, 1000px&quot;</font>&gt;
+    </string>
 
     <string name="a_exemple">
     <pre>
-    &lt;<font color="#4682B4">a</font>
-    <font color="#4682B4">href</font>=<font color="#C3693C">&quot;https://example.com&quot;</font>&gt;
-    &lt;<font color="#4682B4">img</font>
-    <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font>
-    <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание изображения&quot;</font>
-    <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font>
-    <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>
-    &gt;
-    &lt;/<font color="#4682B4">a</font>&gt;
+    &lt; <font color="#4682B4">a</font> <font color="#4682B4">href</font>=<font color="#C3693C">&quot;https://example.com&quot;</font>
+    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание изображения&quot;</font> <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font> <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>\n
+    <font color="#4682B4">a</font>&gt;
     </pre>
 </string>
+
 
     <string name="multimedia">
     2. <font color="#4682B4">Мультимедиа</font>:
