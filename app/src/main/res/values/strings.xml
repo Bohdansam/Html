@@ -207,7 +207,7 @@
 </string>
 
     <string name="html_multimedia">
-    <font color="#4682B4">Мультимедиа</font> — это комбинация различных форм контента, таких как текст, изображение, аудио, видео и анимация, используемая для передачи информации
+    <font color="#4682B4">Мультимедиа</font> — это комбинация различных форм контента, таких как текст, изображение, аудио, видео и анимация, используемая для передачи информации.
 </string>
 
     <string name="image">
@@ -219,17 +219,17 @@
 </string>
 
     <string name="img_exemple">
-    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">"image.jpg"</font> <font color="#4682B4">alt</font>=<font color="#C3693C">"Описание"</font>&gt;
+    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font>&gt;
 </string>
 
     <string name="html_src_alt_width_height">
-    <font color="#4682B4">src</font> - этот атрибут указывает путь к изображению, которое нужно отобразить на веб-странице. Путь может быть относительным (например, <font color="#C3693C">images/picture.jpg</font>) или абсолютным (например, <font color="#C3693C">https://example.com/images/picture.jpg</font>).\n\n
+    <font color="#4682B4">src</font> - этот атрибут указывает путь к изображению, которое нужно отобразить на веб-странице. Путь может быть относительным (например, <font color="#C3693C">&quot;images/picture.jpg&quot;</font>) или абсолютным (например, <font color="#C3693C">&quot;https://example.com/images/picture.jpg&quot;</font>).\n\n
     <font color="#4682B4">alt</font> - этот атрибут определяет альтернативный текст для изображения. Этот текст отображается, если изображение по каким-то причинам не может быть загружено.\n\n
     <font color="#4682B4">width</font> и <font color="#4682B4">height</font> - задают ширину и высоту изображения в пикселях или процентах.
 </string>
 
     <string name="width_exemple">
-    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">"image.jpg"</font> <font color="#4682B4">alt</font>=<font color="#C3693C">"Описание"</font> <font color="#4682B4">width</font>=<font color="#C3693C">300</font> <font color="#4682B4">height</font>=<font color="#C3693C">200</font>&gt;
+    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font> <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font> <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>&gt;
 </string>
 
     <string name="html_title">
@@ -237,23 +237,23 @@
 </string>
 
     <string name="title_exemple">
-    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">"image.jpg"</font> <font color="#4682B4">alt</font>=<font color="#C3693C">"Описание"</font> <font color="#4682B4">title</font>=<font color="#C3693C">"Подсказка"</font>&gt;
+    &lt;<font color="#4682B4">img</font> <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font> <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание&quot;</font> <font color="#4682B4">title</font>=<font color="#C3693C">&quot;Подсказка&quot;</font>&gt;
 </string>
 
     <string name="html_gif_a">
-    Тег <font color="#4682B4">img</font> также поддерживает анимированные изображения в виде <font color="#4682B4">gif</font>.\n\n
+    Тег <font color="#4682B4">img</font> также поддерживает анимированные изображения в виде <font color="#4682B4">gif</font>.\n
     Изображение можно использовать как ссылку, для этого тег <font color="#4682B4">img</font> нужно добавить в тег &lt;<font color="#4682B4">a</font>&gt;.
 </string>
 
     <string name="a_exemple">
     <pre>
     &lt;<font color="#4682B4">a</font>
-    <font color="#4682B4">href</font>=<font color="#C3693C">"https://example.com"</font>&gt;
+    <font color="#4682B4">href</font>=<font color="#C3693C">&quot;https://example.com&quot;</font>&gt;
     &lt;<font color="#4682B4">img</font>
-    <font color="#4682B4">src</font>=<font color="#C3693C">"image.jpg"</font>
-    <font color="#4682B4">alt</font>=<font color="#C3693C">"Описание изображения"</font>
-    <font color="#4682B4">width</font>=<font color="#C3693C">300</font>
-    <font color="#4682B4">height</font>=<font color="#C3693C">200</font>
+    <font color="#4682B4">src</font>=<font color="#C3693C">&quot;image.jpg&quot;</font>
+    <font color="#4682B4">alt</font>=<font color="#C3693C">&quot;Описание изображения&quot;</font>
+    <font color="#4682B4">width</font>=<font color="#C3693C">&quot;300&quot;</font>
+    <font color="#4682B4">height</font>=<font color="#C3693C">&quot;200&quot;</font>
     &gt;
     &lt;/<font color="#4682B4">a</font>&gt;
     </pre>
@@ -271,8 +271,4 @@
     <font color="#4682B4">object</font> - Используется для встраивания различных мультимедийных файлов, таких как Flash-анимации или PDF-документы.\n\n
     <font color="#4682B4">embed</font> - Используется для встраивания различных мультимедийных элементов, таких как видео, аудио или Flash.
 </string>
-
-
-
-
 </resources>
