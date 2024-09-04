@@ -372,4 +372,129 @@
         &lt; caption&gt;— определяет заголовок таблицы, который будет размещен над таблицей. Используется внутри тега &lt; table&gt;.
     </string>
 
+    <string name="html_list">
+        2. Списки:
+    </string>
+
+    <string name="html_mark_list">
+       • Маркированный или неупорядоченный список определяется тем, что перед  каждым элементом списка добавляется небольшой маркер, обычно в виде  закрашенного кружка. Сам список формируется с помощью элемента &lt; ul&gt;, а каждый пункт списка начинается с элемента &lt; li&gt;.
+    </string>
+
+    <string name="exemple_list1">
+        <font color="#C3693C"> &lt; ul&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Первый пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Второй пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Третий пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+        <font color="#C3693C"> &lt; /ul&gt; </font>
+    </string>
+
+    <string name="list1_result">
+• Первый пункт\n
+• Второй пункт\n
+• Третий пункт
+    </string>
+
+    <string name="html_li">
+       • Внутри &lt; li&gt; не обязательно размещать только текст, это могут быть и другие элементы, вроде абзацев &lt; p&gt;.
+    </string>
+
+    <string name="exemple_list2">
+        <font color="#C3693C"> &lt; li&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; p&gt;</font> <font color="#FFFFFF">Айвенго &lt;</font> <font color="#94D6BD">/p&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; p&gt;</font> <font color="#FFFFFF">Локсли &lt;</font> <font color="#94D6BD">/p&gt;</font> \n
+        <font color="#C3693C"> &lt; /li&gt; </font>
+    </string>
+
+    <string name="list2_result">
+        \ Айвенго \n
+        Локсли
+    </string>
+
+    <string name="html_ul">
+        Кроме того, один список &lt; ul&gt; можно вкладывать в другой, опять же, внутрь &lt; li&gt;.
+    </string>
+
+    <string name="exemple_list3">
+        <font color="#C3693C"> &lt; ul&gt;</font> \n
+        \ \ <font color="#569CD6"> &lt; li&gt; </font> <font color="#FFFFFF"> В </font> \n
+        \ \ \ \ <font color="#225C8C"> &lt; ul&gt; </font>\n
+        \ \ \ \ \ \ \ <font color="#94D6BD"> &lt; li&gt;</font> <font color="#FFFFFF"> Владимир &lt;</font> <font color="#94D6BD">/li&gt; </font> \n
+        \ \ \ \ \ \ \ <font color="#94D6BD"> &lt; li&gt;</font> <font color="#FFFFFF"> Валентин &lt;</font> <font color="#94D6BD">/li&gt; </font> \n
+        \ \ \ \ <font color="#225C8C"> &lt; /ul&gt; </font>\n
+        <font color="#569CD6"> &lt; /li&gt; </font>\n
+        <font color="#569CD6"> &lt; li&gt; </font> <font color="#FFFFFF"> Ж </font> \n
+        \ \ <font color="#225C8C"> &lt; ul&gt; </font>\n
+        \ \ \ \ <font color="#94D6BD"> &lt; li&gt;</font> <font color="#FFFFFF"> Жана &lt;</font> <font color="#94D6BD">/li&gt; </font> \n
+        \ \ <font color="#225C8C"> &lt; /ul&gt; </font>\n
+        <font color="#569CD6"> &lt; /li&gt; </font>\n
+        <font color="#C3693C"> &lt; /ul&gt; </font>\n
+    </string>
+
+    <string name="html_num">
+        Нумерованные или упорядоченные списки представляют собой набор пунктов с  их порядковыми номерами. Вид и тип нумерации зависит от атрибутов  элементов &lt;ol&gt;, который и применяется для создания списка. Каждый пункт нумерованного списка обозначается элементом &lt; li&gt;, как показано ниже.
+    </string>
+
+    <string name="list3_result">
+        В \n
+        \ \ \ • Владимир \n
+        \ \ \ • Валентин \n
+        Ж \n
+        \ \ \ • Жана
+    </string>
+
+    <string name="exemple_list4">
+        <font color="#C3693C"> &lt; ol&gt; </font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Первый пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Первый пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+        \ \ \ \ <font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Первый пункт &lt;</font> <font color="#94D6BD">/li&gt;</font> \n
+    <font color="#C3693C"> &lt; /ol&gt; </font> \n
+    </string>
+
+    <string name="list4_result">
+1. Первый пункт\n
+2. Второй пункт\n
+3. Третий пункт
+    </string>
+
+    <string name="html_num2">
+        Нумерованный список всегда упорядочивается по возрастающей, но в редких  случаях нам надо сделать обратный отсчёт и упорядочить нумерацию по  убывающей. В таком случае к &lt;ol&gt; можно добавить атрибут reversed.
+    </string>
+
+    <string name="exemple_list5">
+    <font color="#C3693C">&lt; ol reversed&gt; </font> \n
+    \ \ \ \<font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Криминальное чтиво&lt; </font> <font color="#94D6BD">/li&gt; </font> \n
+    \ \ \ \<font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Тёмный рыцарь&lt; </font> <font color="#94D6BD">/li&gt; </font> \n
+    \ \ \ \<font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Крёстный отец&lt; </font> <font color="#94D6BD">/li&gt; </font> \n
+    \ \ \ \<font color="#94D6BD">&lt; li&gt;</font> <font color="#FFFFFF">Побег из Шоушенка&lt; </font> <font color="#94D6BD">/li&gt; </font> \n
+    <font color="#C3693C">&lt; /ol reversed&gt; </font> \n
+    </string>
+
+    <string name="list5_result">
+    5. Криминальное чтиво \n
+    4. Тёмный рыцарь \n
+    3. Крёстный отец \n
+    2. Крёстный отец \n
+    1. Побег из Шоушенка
+    </string>
+
+    <string name="html_num3">
+         Список описаний состоит из двух элементов — термина и его описания. Сам список задаётся с помощью элемента &lt;dl&gt;, термин элементом &lt;dt&gt;, а его описание с помощью элемента &lt;dd&gt;.
+    </string>
+
+    <string name="exemple_list6">
+        <font color="#C3693C"> &lt; dl&gt; </font> \n
+        <font color="#94D6BD"> &lt; dt&gt;</font> Первый термин <font color="#94D6BD">&lt; /dt&gt; </font> \n
+        <font color="#94D6BD"> &lt; dd&gt;</font> Описание первого термина <font color="#94D6BD">&lt; /dd&gt; </font> \n
+        <font color="#94D6BD"> &lt; dt&gt;</font> Второй термин <font color="#94D6BD">&lt; /dt&gt; </font> \n
+        <font color="#94D6BD"> &lt; dd&gt;</font> Описание второго термина <font color="#94D6BD">&lt; /dd&gt; </font> \n
+        <font color="#C3693C"> &lt; /dl&gt; </font> \n
+    </string>
+
+    <string name="list6_result">
+    Первый термин \n
+    \ \ \ \Описание первого термина \n
+    Второй термин \n
+     \ \ \ \Описание второго термина
+    </string>
+
 </resources>
