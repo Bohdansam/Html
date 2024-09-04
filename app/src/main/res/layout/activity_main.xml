@@ -58,14 +58,15 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/circule_button2"
                 app:layout_constraintTop_toBottomOf="@+id/chapter1"
-                android:layout_margin="20sp"/>
+                android:layout_margin="20sp"
+                tools:ignore="MissingConstraints" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="&lt;/&gt;"
+                android:text="@string/chapter2_logo"
                 android:textColor="@color/white"
-                android:textSize="70sp"
+                android:textSize="50sp"
                 android:fontFamily="@font/racing_sans_one"
                 app:layout_constraintTop_toTopOf="@id/chapter2"
                 app:layout_constraintLeft_toLeftOf="@id/chapter2"
@@ -97,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/code"
+                android:text="@string/chater3_logo"
                 android:textColor="@color/white"
                 android:textSize="40sp"
                 android:fontFamily="@font/racing_sans_one"
@@ -118,6 +119,40 @@
                 android:layout_marginStart="8sp"
                 app:layout_constraintLeft_toRightOf="@id/chapter3"
                 app:layout_constraintBottom_toBottomOf="@id/chapter3" />
+
+            <ImageView
+                android:id="@+id/chapter4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circul_button4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="410sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chater3_logo"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:fontFamily="@font/racing_sans_one"
+                app:layout_constraintTop_toTopOf="@id/chapter4"
+                app:layout_constraintLeft_toLeftOf="@id/chapter4"
+                app:layout_constraintRight_toRightOf="@id/chapter4"
+                android:layout_margin="15sp"/>
+
+            <Button
+                android:id="@+id/chapterBtn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/chapter4"
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:paddingLeft="1dp"
+                android:layout_marginStart="8sp"
+                app:layout_constraintLeft_toRightOf="@id/chapter4"
+                app:layout_constraintBottom_toBottomOf="@id/chapter4" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

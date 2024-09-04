@@ -5,7 +5,8 @@
     <string name="chapter3">3.Изображения и мультимедиа</string>
     <string name="chapter4">4.Таблицы и списки</string>
     <string name="chapter5">5.Формы и взаимодействие с пользователем</string>
-    <string name="code">code</string>
+    <string name="chapter2_logo">text</string>
+    <string name="chater3_logo">img</string>
     <string name="content">Содержание:</string>
 
     <string name="html_index">
@@ -279,4 +280,96 @@
     <font color="#4682B4">object</font> - Используется для встраивания различных мультимедийных файлов, таких как Flash-анимации или PDF-документы.\n\n
     <font color="#4682B4">embed</font> - Используется для встраивания различных мультимедийных элементов, таких как видео, аудио или Flash.
 </string>
+
+    <string name="html_index4">
+        1. Таблицы\n2. Списки
+    </string>
+
+    <string name="table">
+        1. Таблицы
+    </string>
+
+    <string name="html_table">
+        table — один из основных элементов HTML, который  используют для отображения данных (текста, изображения или другого  элемента) в ячейках на странице. Таблица состоит из строк и столбцов.\n
+        • &lt;table&gt;— определяет начало и конец таблицы. Всё содержимое таблицы должно находиться между &lt;table&gt; &lt;/table&gt;
+    </string>
+
+    <string name="exemple_table1">
+        <font color="#C3693C"> &lt; table &gt; </font> \n
+        <font color="#EC4DE0"> \ \ \ &lt; !--  здесь будут ячейки таблицы  --&gt; \n</font>
+        <font color="#C3693C"> &lt; /table &gt;</font>
+    </string>
+
+    <string name="html_thead">
+       • &lt;thead&gt; — определяет заголовок таблицы. Заголовок может содержать одну или несколько строк, в которых могут использоваться теги &lt; th&gt; для определения заголовков столбцов.
+    </string>
+
+    <string name="exemple_table2">
+        <font color="#C3693C"> &lt; table &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; thead &gt; </font> \n
+        <font color="#EC4DE0"> \ \ \ \ \ \ \ \ \&lt; !--  здесь будут ячейки таблицы  --&gt; \n</font>
+        <font color="#569CD6"> \ \ \ \ &lt;  /thead &gt; </font> \n
+        <font color="#C3693C"> &lt; /table &gt;</font>
+    </string>
+
+    <string name="html_tr">
+        • &lt; tr&gt; — определяет строку таблицы. Каждая строка должна находиться между тегами &lt; tbody&gt;, &lt; thead&gt; или &lt; tfoot &gt;.\n
+        • &lt; th&gt;— определяет заголовок столбца или строки таблицы. Используется внутри тегов &lt; thead&gt; и &lt; tr&gt;
+    </string>
+
+    <string name="exemple_table3">
+        <font color="#C3693C"> &lt; table &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; thead &gt; </font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; tr&gt;</font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 1 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 2 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; /tr&gt;</font>\n
+        <font color="#569CD6"> \ \ \ \ &lt;  /thead &gt; </font> \n
+        <font color="#C3693C"> &lt; /table &gt;</font>
+    </string>
+
+    <string name="html_tbody">
+        &lt; tbody&gt; — определяет тело таблицы. Тело содержит одну или несколько строк, в которых могут использоваться теги &lt; td&gt; для определения содержимого ячеек.
+    </string>
+
+    <string name="exemple_table4">
+        <font color="#C3693C"> &lt; table &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; thead &gt; </font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; tr&gt;</font>\n
+       <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 1 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 2 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; /tr&gt;</font>\n
+        <font color="#569CD6"> \ \ \ \ &lt;  /thead &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; tbody &gt; </font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; tr&gt;</font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; /tr&gt;</font>\n
+        <font color="#569CD6"> \ \ \ \ &lt; /tbody &gt; </font> \n
+        <font color="#C3693C"> &lt; /table &gt;</font>
+    </string>
+
+    <string name="html_td">
+        &lt; td&gt;— определяет содержимое ячейки таблицы. Используется внутри тегов &lt;tbody&gt;, &lt;tfoot&gt; и &lt;tr&gt;.
+    </string>
+
+    <string name="exemple_table5">
+        <font color="#C3693C"> &lt; table &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; thead &gt; </font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; tr&gt;</font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 1 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; th&gt; </font> <font color="#FFFFFF">Заголовок 2 </font> <font color="#94D6BD"> &lt; /th&gt; </font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; /tr&gt;</font>\n
+        <font color="#569CD6"> \ \ \ \ &lt;  /thead &gt; </font> \n
+        <font color="#569CD6"> \ \ \ \ &lt; tbody &gt; </font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; tr&gt;</font>\n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; td&gt; </font> <font color="#FFFFFF">Ячейка 1,1</font> <font color="#94D6BD">&lt; /td&gt;</font>  \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ \ \ \ \ \ &lt; td&gt;</font> <font color="#FFFFFF"> Ячейка 1,2 </font> <font color="#94D6BD">&lt; /td&gt;</font> \n
+        <font color="#94D6BD"> \ \ \ \ \ \ \ \ &lt; /tr&gt;</font>\n
+        <font color="#569CD6"> \ \ \ \ &lt; /tbody &gt; </font> \n
+        <font color="#C3693C"> &lt; /table &gt;</font>
+    </string>
+
+    <string name="html_caption">
+        &lt; caption&gt;— определяет заголовок таблицы, который будет размещен над таблицей. Используется внутри тега &lt; table&gt;.
+    </string>
+
 </resources>
