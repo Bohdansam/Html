@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Html"
         tools:targetApi="31">
         <activity
+            android:name=".Chapter5"
+            android:exported="false" />
+        <activity
             android:name=".Chapter4"
             android:exported="false" />
         <activity
@@ -23,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".Chapter1"
-            android:exported="false" />
-        <activity
-            android:name=".Chapter5"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
