@@ -498,4 +498,212 @@
      \ \ \ \Описание второго термина
     </string>
 
+    <string name="html_index5">
+   <font color="#4682B4"> 1. Текстовые поля \n
+    2. Кнопки \n
+    3. Чекбоксы \n
+    4. Радиокнопки \n
+    5. Выпадающие списки \n
+    6. Ползунки \n
+       7. Файловый ввод \n </font>
+    </string>
+
+    <string name="html_text1">
+        1. Текстовые поля:
+    </string>
+
+    <string name="html_html_base">
+        Основной синтаксис создания текстового поля выглядит так:
+    </string>
+
+    <string name="text_input_exemple1">
+        <font color="#C3693C">&lt; input</font> <font color="#569CD6"> type</font>=<font color="#FFFFFF">&quot;text&quot;</font> <font color="#569CD6"></font> <font color="#FFFFFF">name=&quot;username&quot;</font>  <font color="#569CD6">placeholder=&quot;</font> <font color="#FFFFFF">Введите ваше имя</font> &quot;&gt;
+    </string>
+
+    <string name="html_text_explain">
+        • <font color="#4682B4"> type="text"</font> указывает, что это текстовое поле. \n
+        • Атрибут<font color="#4682B4"> name </font>задает имя поля, которое нужно для отправки данных на сервер. \n
+        • Атрибут <font color="#4682B4"> placeholder </font> добавляет текст-заполнитель, который исчезает, когда пользователь начинает вводить данные.
+    </string>
+
+    <string name="html_text_explain2">
+        Важные атрибуты текстового поля \n
+        <font color="#4682B4"> type </font> — тип поля ввода. Основные значения: \n
+        \ \ \ \ <font color="#4682B4"> &quot;text&quot;</font> — обычное текстовое поле. \n
+        \ \ \ \ <font color="#4682B4"> &quot;email&quot; </font> — текстовое поле для ввода  email-адресов. Браузеры могут  проверять правильность email на  уровне клиента. \n
+        \ \ \ \ <font color="#4682B4"> &quot;password&quot; </font> — поле для ввода паролей (текст скрывается при вводе). \n
+        • <font color="#4682B4"> name </font> — имя поля, используемое при  отправке данных формы. \n
+        • <font color="#4682B4"> value </font> — начальное значение, которое  будет отображаться в текстовом поле при загрузке страницы. \n
+        • <font color="#4682B4"> placeholder </font> — текст-заполнитель, который  исчезает при вводе. \n
+        • <font color="#4682B4">  maxlength </font> — максимальная длина вводимого текста. Пример: \n
+        • <font color="#4682B4"> required </font> - делает поле обязательным для заполнения \n
+        • <font color="#4682B4"> readonly </font> - поле доступно только для чтения, вводить данные нельзя \n
+        • <font color="#4682B4"> disabled </font> - делает поле неактивным (его нельзя ни редактировать, ни отправлять данные из него) \n
+        • <font color="#4682B4"> size </font> - определяет видимую ширину текстового поля в символах \n
+        • <font color="#4682B4"> pattern </font> - задает шаблон для валидации введенных данных. Например, можно задать, чтобы поле принимало только цифры \n
+        • <font color="#4682B4"> for </font> - используется в элементе &lt;label&gt; для связывания метки с определенным элементом формы, таким как текстовое поле или чекбокс
+    </string>
+
+    <string name="html_valid">
+        Пример с валидацией:
+    </string>
+
+    <string name="text_input_exemple2">
+        <font color="#C3693C"> &lt;form&gt; </font> \n
+        <font color="#569CD6">&lt;label for</font>=&quot;phone&quot;&gt;Телефон:&lt;<font color="#569CD6">/label&gt;</font> \n \n
+        <font color="#569CD6">&lt;input type</font> =&quot;text&quot;<font color="#569CD6">id</font>=&quot;phone&quot;  <font color="#569CD6">name</font> =&quot;phone&quot; <font color="#569CD6">placeholder</font> =&quot;Введите телефон&quot;<font color="#569CD6"> pattern</font> =&lt;\d{10}&gt; <font color="#569CD6">title</font> =&lt;Телефон должен содержать 10 цифр&gt; <font color="#569CD6">required</font> &gt; \n \n
+        <font color="#569CD6">&lt;input type</font> =&quot;submit&quot; <font color="#569CD6">value</font> =&quot;Отправить&quot;&gt; \n
+        <font color="#C3693C"> &lt;/form&gt; </font> \n
+&lt;/string&gt;
+    </string>
+
+    <string name="text_input_explain2">
+        Здесь поле для ввода телефона принимает только цифры и требует, чтобы их было ровно 10.
+    </string>
+
+    <string name="html_button1">
+        2. Кнопки:
+    </string>
+
+    <string name="html_teg_btn">
+        Кнопка с помощью тега <font color="#569CD6">&lt;button&gt;</font> :
+    </string>
+
+    <string name="exemple_button1">
+        <font color="#C3693C"> &lt;button</font> <font color="#569CD6">type</font><font color="#FFFFFF">=\"submit\"</font> <font color="#C3693C">&gt;</font> <font color="#FFFFFF"> Отправить</font> <font color="#C3693C">&lt;/button&gt;</font>
+    </string>
+
+    <string name="html_btn_atribute">
+        Атрибут type указывает тип кнопки. В данном примере кнопка отправляет форму, потому что у нее тип <font color="#569CD6">\"submit\"</font>. Этот тег позволяет размещать внутри себя любой HTML-контент — текст, изображения, иконки и даже другие теги.
+    </string>
+
+    <string name="html_input_btn">
+        Кнопка с помощью тега <font color="#569CD6">&lt;input&gt;</font>:
+    </string>
+
+    <string name="exemple_button2">
+        <font color="#C3693C">&lt;input</font> <font color="#569CD6">type</font>=\"submit\"<font color="#569CD6"> value</font> =&lt;\"Отправить\"&gt;
+    </string>
+
+    <string name="explain_button2">
+        Здесь кнопка создается с помощью тега &lt;input&gt; с типом <font color="#569CD6">\"submit\"</font>, а текст на кнопке указывается через атрибут <font color="#569CD6">value</font>. Это однострочный элемент, который не позволяет добавлять внутрь него другой контент. Все, что вы можете изменить, — это значение атрибута <font color="#569CD6">value</font>, которое отображается как текст на кнопке. \n \n
+        •<font color="#569CD6"> submit</font> - кнопка для отправки формы. Когда пользователь нажимает такую кнопку, данные формы отправляются на сервер. \n
+        • <font color="#569CD6">reset</font> - сбрасывает все поля формы к значениям по умолчанию. \n
+        • <font color="#569CD6">button</font> — обычная кнопка, которая не выполняет никаких действий по умолчанию. Она часто используется вместе с JavaScript для выполнения пользовательских функций.
+    </string>
+
+    <string name="html_btn_atribute2">
+        Атрибуты кнопок:
+    </string>
+
+    <string name="html_btn_atribute3">
+        <font color="#569CD6">type</font> — указывает тип кнопки. Возможные значения: \n
+        \ \ \ \ \"<font color="#569CD6">submit</font>\" — отправляет форму. \n
+        \ \ \ \ \"<font color="#569CD6">reset</font>\" — сбрасывает форму. \n
+        \ \ \ \ \"<font color="#569CD6">button</font>\" — обычная кнопка без встроенного действия. \n
+        <font color="#569CD6">value</font> — для кнопок, созданных с помощью &lt;input&gt;, задает текст, который будет отображен на кнопке. \n
+        <font color="#569CD6">disabled </font> — делает кнопку неактивной. Пользователь не сможет нажать на такую кнопку. \n
+        <font color="#569CD6">name</font> и <font color="#569CD6">value</font> — используются для передачи данных формы. Эти атрибуты важны, если кнопка участвует в отправке формы.
+    </string>
+
+    <string name="checkBox">
+        3. Чекбоксы:
+    </string>
+
+    <string name="html_checkBox">
+        Чекбоксы позволяют выбирать несколько вариантов одновременно. Каждый чекбокс является независимым, и пользователь может включить или выключить их независимо друг от друга.
+    </string>
+
+    <string name="exemple_checkBox">
+        <font color="#C3693C"> &lt;form&gt;</font> \n
+        <font color="#569CD6">&lt;label&gt;</font> \n
+        <font color="#C3693C">&lt;input</font><font color="#225C8C">type</font> =\"checkbox\"<font color="#225C8C">name</font>=\"option1\"<font color="#225C8C">value</font>=\"1\"&gt; Вариант 1 \n
+        <font color="#569CD6">&lt;/label&gt;</font> \n
+        <font color="#569CD6">&lt;label&gt;</font> \n
+        <font color="#C3693C">&lt;input</font><font color="#225C8C">type</font>=\"checkbox\"<font color="#225C8C">name</font>=\"option2\"<font color="#225C8C">value</font>=\"2\"&gt; Вариант 2 \n
+        <font color="#569CD6">&lt;/label&gt;</font> \n
+        <font color="#569CD6">&lt;label&gt;</font> \n
+        <font color="#C3693C">&lt;input</font><font color="#225C8C">type</font>=\"checkbox\"<font color="#225C8C">name</font>=\"option3\"<font color="#225C8C">value</font>=\"3\"&gt; Вариант 3 \n
+        <font color="#569CD6">&lt;/label&gt;</font> \n
+        <font color="#C3693C">&lt;input</font><font color="#225C8C">type</font> =\"submit\"<font color="#225C8C">value</font>=\"Отправить\"&gt; \n
+    &lt;/form&gt;
+    </string>
+
+    <string name="radioButton">
+        4. Радиокнопки:
+    </string>
+
+    <string name="html_radioButton">
+        Радиокнопки позволяют выбрать только один вариант из группы. Все радиокнопки в одной группе должны иметь одинаковое значение атрибута name, чтобы они действовали как единое целое.
+    </string>
+
+    <string name="exemple_radioButton">
+        <font color="#C3693C">&lt;form&gt;</font> \n
+        \ \ <font color="#225C8C">&lt;label&gt;</font> \n
+        \ \ \ \   <font color="#C3693C">&lt;input</font><font color="#569CD6">type</font>=\"radio\"<font color="#569CD6">name</font>=\"gender\"<font color="#569CD6">value</font>=\"male\"&gt; Мужчина \n
+        <font color="#225C8C">&lt;/label&gt;</font> \n \n
+        <font color="#225C8C">&lt;label&gt;</font> \n
+        \ \ \ \   <font color="#C3693C">&lt;input</font><font color="#569CD6">type</font>=\"radio\"<font color="#569CD6">name</font> =\"gender\"<font color="#569CD6">value</font>=\"female\"&gt; Женщина \n
+        <font color="#225C8C">&lt;/label&gt;</font> \n \n
+        <font color="#225C8C">&lt;label&gt;</font> \n
+        \ \ \ \  <font color="#C3693C">&lt;input</font><font color="#569CD6">type</font>=\"radio\"<font color="#569CD6">name</font>=\"gender\"<font color="#569CD6">value</font>=\"other\"&gt; Другое \n
+        <font color="#225C8C">&lt;/label&gt;</font> \n \n
+        <font color="#C3693C">&lt;input</font><font color="#569CD6">type</font>=\"submit\"<font color="#569CD6">value</font>=\"Отправить\"&gt; \n
+        <font color="#C3693C">&lt;/form&gt;</font>
+    </string>
+
+    <string name="Dropdown">
+        5. Выпадающие списки:
+    </string>
+
+    <string name="html_dropdown">
+        Выпадающий список позволяет выбрать один или несколько вариантов из списка.
+    </string>
+
+    <string name="exemple_dropdown">
+        <font color="#C3693C">&lt;form&gt;</font> \n
+        \ \ <font color="#225C8C">&lt;label</font><font color="#569CD6">for</font>=\"city\"&gt;Выберите город:<font color="#225C8C">&lt;/label&gt;</font> \n
+        \ \ <font color="#225C8C">&lt;select</font><font color="#569CD6">id</font>=\:city\"<font color="#569CD6">name</font>=\"city\"&gt; \n
+        \ \ \ \ <font color="#225C8C">&lt;option</font><font color="#569CD6">value</font>=\"moscow\"&gt;Москва<font color="#225C8C">&lt;/option&gt;</font> \n
+        \ \ \ \ <font color="#225C8C">&lt;option</font><font color="#569CD6">value</font>=\"spb\">Санкт-Петербург<font color="#225C8C">&lt;/option&gt;</font> \n
+        \ \ \ \ <font color="#225C8C">&lt;option</font> value=\"novosibirsk\"&gt;Новосибирск<font color="#225C8C">&lt;/option&gt;</font> \n
+        <font color="#225C8C">&lt;/select&gt;</font> \n \n
+        <font color="#225C8C">&lt;input</font><font color="#569CD6">type</font>=\"submit\"<font color="#569CD6">value</font>=\"Отправить\"&gt; \n
+        <font color="#C3693C">&lt;/form&gt;</font>
+    </string>
+
+    <string name="Range_Sliders">
+        6. Ползунки:
+    </string>
+
+    <string name="html_range_sliders">
+        Ползунок позволяет пользователю выбрать значение в определенном диапазоне.
+    </string>
+
+    <string name="exemple_range_sliders">
+        <font color="#C3693C">&lt;form&gt;</font> \n
+        \ \ &lt;<font color="#225C8C">label</font><font color="#569CD6">for</font>=\"volume\"&gt;Громкость:<font color="#225C8C">&lt;/label&gt;</font> \n
+        \ \ &lt;<font color="#225C8C">input</font><font color="#569CD6">type</font>=\"range\"<font color="#569CD6">id</font>=\"volume\"<font color="#569CD6">name</font>=\"volume\"<font color="#569CD6">min</font>=\"10\"<font color="#569CD6">max</font>=\"100\"<font color="#569CD6">value</font>=\"50\"&gt; \n \n
+        &lt;<font color="#225C8C">input</font><font color="#569CD6">type</font>=&lt;submit&gt;<font color="#569CD6">value</font>=&lt;Отправить\"&gt; \n
+        <font color="#C3693C">&lt;/form&gt;</font>
+    </string>
+
+    <string name="File_input">
+        7. Файловый ввод:
+    </string>
+
+    <string name="html_file_input">
+        Этот элемент позволяет пользователю загружать файлы на сервер. Форма с файловым вводом должна иметь атрибут enctype=\"multipart/form-data\" для корректной отправки файлов.
+    </string>
+
+    <string name="exemple_file_input">
+        <font color="#C3693C">&lt;form</font><font color="#225C8C">enctype</font>=\"multipart/form-data\"&gt; \n
+        \ \ <font color="#225C8C">&lt;label for</font>=\"file\"&gt;Загрузите файл:<font color="#225C8C">&lt;/label&gt;</font> \n
+        \ \ <font color="#225C8C">&lt;input type</font>=\"file\"<font color="#225C8C">id</font>=\"file\"<font color="#225C8C">name</font>=\"file\"&gt; \n \n
+        <font color="#C3693C">&lt;input</font><font color="#225C8C">type</font> =\"submit\"<font color="#225C8C">value</font> =\"Загрузить\"&gt; \n
+        <font color="#C3693C">&lt;/form&gt;</font>
+    </string>
+
+
+
 </resources>
