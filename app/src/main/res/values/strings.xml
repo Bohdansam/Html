@@ -517,7 +517,7 @@
     </string>
 
     <string name="text_input_exemple1">
-        <font color="#C3693C">&lt; input</font> <font color="#569CD6"> type</font>=<font color="#FFFFFF">&quot;text&quot;</font> <font color="#569CD6"></font> <font color="#FFFFFF">name=&quot;username&quot;</font>  <font color="#569CD6">placeholder=&quot;</font> <font color="#FFFFFF">Введите ваше имя</font> &quot;&gt;
+        <font color="#C3693C">&lt; input</font> <font color="#569CD6"> type</font>=<font color="#FFFFFF">&quot;text&quot;</font> <font color="#569CD6">name</font><font color="#FFFFFF">=&quot;username&quot;</font>  <font color="#569CD6">\"placeholder=\"</font> <font color="#FFFFFF">Введите ваше имя</font> &quot;&gt;
     </string>
 
     <string name="html_text_explain">
